@@ -1,7 +1,7 @@
 import axios from 'axios'
 
 const appId = 'fbeda3760a7adf058810137536c706c3'
-const baseDataApiUrl = 'http://api.openweathermap.org/data/2.5'
+const baseDataApiUrl = '/data/2.5'
 const baseImgApiUrl = '/img/w'
 
 export const getCurrentForecast = async (cityZipCode) => {
