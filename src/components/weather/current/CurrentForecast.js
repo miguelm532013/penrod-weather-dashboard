@@ -29,7 +29,7 @@ const unixDateTimeToTime = (unixTimeUtc) => {
 }
 
 const CurrentForecast = (props) => {
-    const { weather, main, wind, clouds, rain, snow, sys } = props.currentForecast
+    const { weather, main, wind, clouds, sys } = props.currentForecast
     function toUpperCaseFirstLetters(stringToTransform) {
         return stringToTransform.toLowerCase()
                 .split(' ')
